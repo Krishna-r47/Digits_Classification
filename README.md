@@ -1,11 +1,11 @@
 # Digits_Classification
 Classifying images of numbers using ML and DL techniques
 
-### A) Problem Statement
+# A) Problem Statement
 To classify handwritten digit images (0–9) accurately using both traditional machine learning (Support
 Vector Machine) and Deep Learning (Convolutional Neural Network) models.
 
-### B) EDA and Data Pre-processing Steps Taken
+# B) EDA and Data Pre-processing Steps Taken
 → The digits dataset from sklearn.datasets was loaded, containing 8x8 pixel images of handwritten digits
 (0–9). The dataset had no missing values, so we directly moved into exploring and preparing the data.
 
@@ -24,7 +24,7 @@ proportions.
 CNN, image data was normalized (divided by 16.0) and reshaped to (8, 8, 1) to match the expected input
 shape for convolutional layers.
 
-### C) Model Training and Evaluation
+# C) Model Training and Evaluation
 → A train-test split of 80-20 is designated for both the SVM and CNN models. Stratification is applied to
 ensure all digit classes (0–9) are equally represented in both sets. A fixed random_state is used for
 reproducibility.
@@ -47,7 +47,7 @@ epochs.
 → Accuracy and loss graphs are plotted side-by-side to observe how the model learns and whether it
 overfits or underfits across the 10 training epochs.
 
-### D) Challenges Faced
+# D) Challenges Faced
 → During evaluation of the SVM model, plotting ROC curves required transforming the multiclass
 labels into a binarized format and extracting decision function scores — this needed extra care
 to ensure shape alignment across arrays.
@@ -62,7 +62,7 @@ with verbose=0 to silently collect the history for plotting purposes.
 which was computationally heavier and required fine-tuning of matplotlib plotting settings to
 keep the output readable.
 
-### E) Summary
+# E) Summary
 ✓ Machine Learning Model Used: Support Vector Machine (RBF Kernel)
 
 ✓ Deep Learning Model Used: Convolutional Neural Network (CNN)
@@ -71,7 +71,7 @@ keep the output readable.
 
 ✓ CNN Accuracy: ~ 98% (after 10 epochs)
 
-# Key library methods in use 
+##_ Key library methods in use _
 
 ✓ Scikit-learn: SVC, roc_curve, auc, label_binarize
 
