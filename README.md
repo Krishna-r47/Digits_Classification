@@ -63,13 +63,14 @@ which was computationally heavier and required fine-tuning of matplotlib plottin
 keep the output readable.
 
 ### E) Summary
-Machine Learning Model Used: Support Vector Machine (RBF Kernel)
-Deep Learning Model Used: Convolutional Neural Network (CNN)
-SVM Accuracy: ~ 97.5%
-CNN Accuracy: ~ 98% (after 10 epochs)
+✓ Machine Learning Model Used: Support Vector Machine (RBF Kernel)
+✓ Deep Learning Model Used: Convolutional Neural Network (CNN)
+✓ SVM Accuracy: ~ 97.5%
+✓ CNN Accuracy: ~ 98% (after 10 epochs)
+
 Key library methods in use →
 ✓ Scikit-learn: SVC, roc_curve, auc, label_binarize
-✓ tensorflow.keras: Sequential, Conv2D, MaxPooling2D, Flatten, Dense
-✓ matplotlib, seaborn: Visualization of heatmaps, confusion matrix, training history,
+✓ Tensorflow.keras: Sequential, Conv2D, MaxPooling2D, Flatten, Dense
+✓ Matplotlib, Seaborn: Visualization of heatmaps, confusion matrix, training history,
 and ROC curves
-✓ pandas, numpy: Data handling and reshaping
+✓ Pandas, Numpy: Data handling and reshaping
