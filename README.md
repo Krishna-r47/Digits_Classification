@@ -71,7 +71,7 @@ keep the output readable.
 
 ✓ CNN Accuracy: ~ 98% (after 10 epochs)
 
-## Key library methods in use 
+## *Key library methods in use* 
 
 ✓ Scikit-learn - SVC, roc_curve, auc, label_binarize
 
