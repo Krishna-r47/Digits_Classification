@@ -71,13 +71,13 @@ keep the output readable.
 
 ✓ CNN Accuracy: ~ 98% (after 10 epochs)
 
-##_ Key library methods in use _
+## Key library methods in use 
 
-✓ Scikit-learn: SVC, roc_curve, auc, label_binarize
+✓ Scikit-learn - SVC, roc_curve, auc, label_binarize
 
-✓ Tensorflow.keras: Sequential, Conv2D, MaxPooling2D, Flatten, Dense
+✓ Tensorflow.keras - Sequential, Conv2D, MaxPooling2D, Flatten, Dense
 
-✓ Matplotlib, Seaborn: Visualization of heatmaps, confusion matrix, training history,
+✓ Matplotlib, Seaborn - Visualization of heatmaps, confusion matrix, training history,
 and ROC curves
 
-✓ Pandas, Numpy: Data handling and reshaping
+✓ Pandas, Numpy - Data handling and reshaping
